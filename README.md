@@ -16,12 +16,11 @@ Description/Purpose:
 
 ### Creating New Repo
 
-Obtain login credentials for Git. SSH into DevCPortal server. To obtain password, contact
-IT Team under Bruce.
+Obtain login credentials for Git. SSH into remote linux. To obtain password, contact
+IT Team.
 ```shell
-ssh -i devcportal@10.0.6.38
+ssh -i devserver@ip_address
 ```
-- ![SSH Command](./images/ssh_devcportal.PNG)
 
 Open the encrypted file with password obtained from IT Team and get password.
 - ![Home Dir Devcportal](./images/home_dir_devcportal.PNG)
